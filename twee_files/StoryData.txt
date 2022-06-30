@@ -23,3 +23,9 @@ Madilyn
 
 :: StoryCaption
 /* Used to populate the story's caption area in the UI bar (element ID: story-caption). May also be, and often is, used to add additional story UI elements and content to the UI bar. */
+
+:: StoryInit
+/* Used for pre-story-start initialization tasks, like variable initialization (happens at the beginning of story initialization). Generates no output. */
+
+:: StoryBanner
+/* Used to populate the story's banner area in the UI bar (element ID: story-banner). */
