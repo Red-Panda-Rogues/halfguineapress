@@ -1,0 +1,25 @@
+::StoryData
+{
+    "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
+    "format": "SugarCube",
+    "format-version": "2.36.1",
+    "start": "Start"
+}
+
+::StoryTitle
+Half Guinea Press
+
+:: StoryDisplayTitle
+/* Sets the story's display title in the browser's titlebar and the UI bar (element ID: story-title). If omitted, the story title will be used instead. */
+Half Guinea Press
+
+:: StorySubtitle
+/* Sets the story's subtitle in the UI bar (element ID: story-subtitle). */
+Currently a random assortment of notes, thoughts, ideas, and other mental quandries...
+
+:: StoryAuthor
+by:
+Madilyn
+
+:: StoryCaption
+/* Used to populate the story's caption area in the UI bar (element ID: story-caption). May also be, and often is, used to add additional story UI elements and content to the UI bar. */
