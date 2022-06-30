@@ -1,3 +1,4 @@
+:: DM Book Setup
 square graph paper
 isometric graph paper
 npc section
