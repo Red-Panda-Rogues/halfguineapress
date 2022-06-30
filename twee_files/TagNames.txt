@@ -1,0 +1,35 @@
+:: Tag Names
+
+bookmark
+Registers the passage into the Jump To menu.
+
+nobr
+Causes leading/trailing newlines to be removed and all remaining sequences of newlines to be replaced with single spaces before the passage is rendered. Equivalent to wrapping the entire passage in a <<nobr>> macro. See the Config.passages.nobr setting for a way to apply the same processing to all passages at once.
+NOTE: Does not affect script or stylesheet tagged passages, for Twine 1/Twee.
+
+init
+Registers the passage as an initialization passage. Used for pre-story-start initialization tasks, like variable initialization (happens at the beginning of story initialization). Generates no output.
+NOTE: This is chiefly intended for use by add-ons/libraries. For normal projects, authors are encouraged to continue to use the StoryInit special named passage.
+
+script
+Twine 2: Not special. Use the Edit Story JavaScript story editor menu item for scripts.
+Twine 1/Twee: Registers the passage as JavaScript code, which is executed during startup.
+
+stylesheet
+Twine 2: Not special. Use the Edit Story Stylesheet story editor menu item for styles.
+Twine 1/Twee: Registers the passage as a CSS stylesheet, which is loaded during startup. It is strongly recommended that you use only one stylesheet passage. Additionally, see the tagged stylesheet warning.
+
+Twine.audio
+Registers the passage as an audio passage. See Guide: Media Passages for more information.
+
+Twine.image
+Registers the passage as an image passage. See Guide: Media Passages for more information.
+
+Twine.video
+Registers the passage as a video passage. See Guide: Media Passages for more information.
+
+Twine.vtt
+Registers the passage as a VTT passage. See Guide: Media Passages for more information.
+
+widget
+Registers the passage as <<widget>> macro definitions, which are loaded during startup.
