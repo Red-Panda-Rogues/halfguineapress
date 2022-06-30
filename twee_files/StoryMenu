@@ -1,0 +1,10 @@
+:: StoryMenu
+/* Used to populate the story's menu items in the UI bar (element ID: menu-story).
+NOTE: The story menu only displays links—specifically, anything that creates an anchor element (<a>). While it renders content just as any other passage does, instead of displaying the rendered output as-is, it sifts through the output and builds its menu from the generated links contained therein.
+Examples:
+[[Inventory]]
+<<link "Schedule">>…<</link>> */
+[[Start]]
+[[Links]]
+[[The Mokosh Tower|https://red-panda-rogues.github.io/mokoshtower/]]
+[[Tag Names]]
