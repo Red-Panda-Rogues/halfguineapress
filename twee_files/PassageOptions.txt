@@ -1,0 +1,11 @@
+:: PassageReady
+/* Used for pre-passage-display tasks, like redoing dynamic changes (happens before the rendering of each passage). Generates no output. */
+
+:: PassageHeader
+/* Prepended to each rendered passage. */
+
+:: PassageFooter
+/* Appended to each rendered passage. */
+
+:: PassageDone
+/* Used for post-passage-display tasks, like redoing dynamic changes (happens after the rendering and display of each passage). Generates no output. */
